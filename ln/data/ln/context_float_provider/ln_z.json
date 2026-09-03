@@ -1,0 +1,23 @@
+{
+  "type": "div",
+  "left": {
+    "type": "sub",
+    "left": {
+      "type": "storage",
+      "storage": "ln.math",
+      "path": "ln.m"
+    },
+    "right": 1
+  },
+  "right": {
+    "type": "add",
+    "inputs": [
+      {
+        "type": "storage",
+        "storage": "ln.math",
+        "path": "ln.m"
+      },
+      1
+    ]
+  }
+}

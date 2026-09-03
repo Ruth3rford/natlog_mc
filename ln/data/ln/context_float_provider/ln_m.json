@@ -21,7 +21,11 @@
         "right": {
             "type": "pow",
             "base": 2,
-            "exponent": "ln:ln_e"
+            "exponent":                 {
+                    "type": "storage",
+                    "storage": "ln.math",
+                    "path": "ln.e"
+                }
         }
     },
     "on_false": {
@@ -37,7 +41,11 @@
                 "base": 2,
                 "exponent": {
                     "type": "negate",
-                    "input": "ln:ln_e"
+                    "input":                 {
+                    "type": "storage",
+                    "storage": "ln.math",
+                    "path": "ln.e"
+                }
                 }
             }
         ]
