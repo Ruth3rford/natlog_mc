@@ -1,0 +1,363 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "ln.math",
+                    "path": "ln.e"
+                },
+                0.693145751953125
+            ]
+        },
+        {
+            "type": "add",
+            "inputs": [
+                {
+                    "type": "add",
+                    "inputs": [
+                        {
+                            "type": "mul",
+                            "inputs": [
+                                2,
+                                {
+                                    "type": "div",
+                                    "left": {
+                                        "type": "sub",
+                                        "left": {
+                                            "type": "storage",
+                                            "storage": "ln.math",
+                                            "path": "ln.m"
+                                        },
+                                        "right": 1
+                                    },
+                                    "right": {
+                                        "type": "add",
+                                        "inputs": [
+                                            {
+                                                "type": "storage",
+                                                "storage": "ln.math",
+                                                "path": "ln.m"
+                                            },
+                                            1
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "mul",
+                            "inputs": [
+                                {
+                                    "type": "mul",
+                                    "inputs": [
+                                        2,
+                                        {
+                                            "type": "div",
+                                            "left": {
+                                                "type": "sub",
+                                                "left": {
+                                                    "type": "storage",
+                                                    "storage": "ln.math",
+                                                    "path": "ln.m"
+                                                },
+                                                "right": 1
+                                            },
+                                            "right": {
+                                                "type": "add",
+                                                "inputs": [
+                                                    {
+                                                        "type": "storage",
+                                                        "storage": "ln.math",
+                                                        "path": "ln.m"
+                                                    },
+                                                    1
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "div",
+                                            "left": {
+                                                "type": "sub",
+                                                "left": {
+                                                    "type": "storage",
+                                                    "storage": "ln.math",
+                                                    "path": "ln.m"
+                                                },
+                                                "right": 1
+                                            },
+                                            "right": {
+                                                "type": "add",
+                                                "inputs": [
+                                                    {
+                                                        "type": "storage",
+                                                        "storage": "ln.math",
+                                                        "path": "ln.m"
+                                                    },
+                                                    1
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "type": "div",
+                                            "left": {
+                                                "type": "sub",
+                                                "left": {
+                                                    "type": "storage",
+                                                    "storage": "ln.math",
+                                                    "path": "ln.m"
+                                                },
+                                                "right": 1
+                                            },
+                                            "right": {
+                                                "type": "add",
+                                                "inputs": [
+                                                    {
+                                                        "type": "storage",
+                                                        "storage": "ln.math",
+                                                        "path": "ln.m"
+                                                    },
+                                                    1
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "div",
+                                    "left": {
+                                        "type": "add",
+                                        "inputs": [
+                                            0.33333334,
+                                            {
+                                                "type": "mul",
+                                                "inputs": [
+                                                    -0.17037037,
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "add",
+                                        "inputs": [
+                                            1,
+                                            {
+                                                "type": "mul",
+                                                "inputs": [
+                                                    -1.1111112,
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "mul",
+                                                "inputs": [
+                                                    0.23809524,
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "div",
+                                                        "left": {
+                                                            "type": "sub",
+                                                            "left": {
+                                                                "type": "storage",
+                                                                "storage": "ln.math",
+                                                                "path": "ln.m"
+                                                            },
+                                                            "right": 1
+                                                        },
+                                                        "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                                {
+                                                                    "type": "storage",
+                                                                    "storage": "ln.math",
+                                                                    "path": "ln.m"
+                                                                },
+                                                                1
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "mul",
+                    "inputs": [
+                        {
+                            "type": "storage",
+                            "storage": "ln.math",
+                            "path": "ln.e"
+                        },
+                        0.0000014286068
+                    ]
+                }
+            ]
+        }
+    ]
+}
