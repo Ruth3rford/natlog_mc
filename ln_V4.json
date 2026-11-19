@@ -1,0 +1,1070 @@
+{
+  "type": "add",
+  "inputs": [
+    {
+      "type": "mul",
+      "inputs": [
+        {
+          "type": "round",
+          "input": {
+            "type": "mul",
+            "inputs": [
+              2954.6394,
+              {
+                "type": "sub",
+                "left": 1,
+                "right": {
+                  "type": "div",
+                  "left": 2,
+                  "right": {
+                    "type": "add",
+                    "inputs": [
+                      1,
+                      {
+                        "type": "pow",
+                        "base": {
+                          "type": "storage",
+                          "storage": "minecraft:ln.math",
+                          "path": "input"
+                        },
+                        "exponent": 0.0009765625
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        0.693145751953125
+      ]
+    },
+    {
+      "type": "add",
+      "inputs": [
+        {
+          "type": "mul",
+          "inputs": [
+            2,
+            {
+              "type": "div",
+              "left": {
+                "type": "sub",
+                "left": {
+                  "type": "conditional",
+                  "condition": {
+                    "type": "float_value_check",
+                    "value": {
+                      "type": "storage",
+                      "storage": "minecraft:ln.math",
+                      "path": "input"
+                    },
+                    "test": {
+                      "min": 1
+                    }
+                  },
+                  "on_true": {
+                    "type": "mul",
+                    "inputs": [
+                      {
+                        "type": "storage",
+                        "storage": "minecraft:ln.math",
+                        "path": "input"
+                      },
+                      {
+                        "type": "pow",
+                        "base": 2,
+                        "exponent": {
+                          "type": "mul",
+                          "inputs": [
+                            -1,
+                            {
+                              "type": "round",
+                              "input": {
+                                "type": "mul",
+                                "inputs": [
+                                  2954.6394,
+                                  {
+                                    "type": "sub",
+                                    "left": 1,
+                                    "right": {
+                                      "type": "div",
+                                      "left": 2,
+                                      "right": {
+                                        "type": "add",
+                                        "inputs": [
+                                          1,
+                                          {
+                                            "type": "pow",
+                                            "base": {
+                                              "type": "storage",
+                                              "storage": "minecraft:ln.math",
+                                              "path": "input"
+                                            },
+                                            "exponent": 0.0009765625
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "on_false": {
+                    "type": "div",
+                    "left": {
+                      "type": "storage",
+                      "storage": "minecraft:ln.math",
+                      "path": "input"
+                    },
+                    "right": {
+                      "type": "pow",
+                      "base": 2,
+                      "exponent": {
+                        "type": "round",
+                        "input": {
+                          "type": "mul",
+                          "inputs": [
+                            2954.6394,
+                            {
+                              "type": "sub",
+                              "left": 1,
+                              "right": {
+                                "type": "div",
+                                "left": 2,
+                                "right": {
+                                  "type": "add",
+                                  "inputs": [
+                                    1,
+                                    {
+                                      "type": "pow",
+                                      "base": {
+                                        "type": "storage",
+                                        "storage": "minecraft:ln.math",
+                                        "path": "input"
+                                      },
+                                      "exponent": 0.0009765625
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "right": 1
+              },
+              "right": {
+                "type": "add",
+                "inputs": [
+                  {
+                    "type": "conditional",
+                    "condition": {
+                      "type": "float_value_check",
+                      "value": {
+                        "type": "storage",
+                        "storage": "minecraft:ln.math",
+                        "path": "input"
+                      },
+                      "test": {
+                        "min": 1
+                      }
+                    },
+                    "on_true": {
+                      "type": "mul",
+                      "inputs": [
+                        {
+                          "type": "storage",
+                          "storage": "minecraft:ln.math",
+                          "path": "input"
+                        },
+                        {
+                          "type": "pow",
+                          "base": 2,
+                          "exponent": {
+                            "type": "mul",
+                            "inputs": [
+                              -1,
+                              {
+                                "type": "round",
+                                "input": {
+                                  "type": "mul",
+                                  "inputs": [
+                                    2954.6394,
+                                    {
+                                      "type": "sub",
+                                      "left": 1,
+                                      "right": {
+                                        "type": "div",
+                                        "left": 2,
+                                        "right": {
+                                          "type": "add",
+                                          "inputs": [
+                                            1,
+                                            {
+                                              "type": "pow",
+                                              "base": {
+                                                "type": "storage",
+                                                "storage": "minecraft:ln.math",
+                                                "path": "input"
+                                              },
+                                              "exponent": 0.0009765625
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "on_false": {
+                      "type": "div",
+                      "left": {
+                        "type": "storage",
+                        "storage": "minecraft:ln.math",
+                        "path": "input"
+                      },
+                      "right": {
+                        "type": "pow",
+                        "base": 2,
+                        "exponent": {
+                          "type": "round",
+                          "input": {
+                            "type": "mul",
+                            "inputs": [
+                              2954.6394,
+                              {
+                                "type": "sub",
+                                "left": 1,
+                                "right": {
+                                  "type": "div",
+                                  "left": 2,
+                                  "right": {
+                                    "type": "add",
+                                    "inputs": [
+                                      1,
+                                      {
+                                        "type": "pow",
+                                        "base": {
+                                          "type": "storage",
+                                          "storage": "minecraft:ln.math",
+                                          "path": "input"
+                                        },
+                                        "exponent": 0.0009765625
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  1
+                ]
+              }
+            },
+            {
+              "type": "add",
+              "inputs": [
+                1,
+                {
+                  "type": "mul",
+                  "inputs": [
+                    {
+                      "type": "pow",
+                      "base": {
+                        "type": "div",
+                        "left": {
+                          "type": "sub",
+                          "left": {
+                            "type": "conditional",
+                            "condition": {
+                              "type": "float_value_check",
+                              "value": {
+                                "type": "storage",
+                                "storage": "minecraft:ln.math",
+                                "path": "input"
+                              },
+                              "test": {
+                                "min": 1
+                              }
+                            },
+                            "on_true": {
+                              "type": "mul",
+                              "inputs": [
+                                {
+                                  "type": "storage",
+                                  "storage": "minecraft:ln.math",
+                                  "path": "input"
+                                },
+                                {
+                                  "type": "pow",
+                                  "base": 2,
+                                  "exponent": {
+                                    "type": "mul",
+                                    "inputs": [
+                                      -1,
+                                      {
+                                        "type": "round",
+                                        "input": {
+                                          "type": "mul",
+                                          "inputs": [
+                                            2954.6394,
+                                            {
+                                              "type": "sub",
+                                              "left": 1,
+                                              "right": {
+                                                "type": "div",
+                                                "left": 2,
+                                                "right": {
+                                                  "type": "add",
+                                                  "inputs": [
+                                                    1,
+                                                    {
+                                                      "type": "pow",
+                                                      "base": {
+                                                        "type": "storage",
+                                                        "storage": "minecraft:ln.math",
+                                                        "path": "input"
+                                                      },
+                                                      "exponent": 0.0009765625
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            },
+                            "on_false": {
+                              "type": "div",
+                              "left": {
+                                "type": "storage",
+                                "storage": "minecraft:ln.math",
+                                "path": "input"
+                              },
+                              "right": {
+                                "type": "pow",
+                                "base": 2,
+                                "exponent": {
+                                  "type": "round",
+                                  "input": {
+                                    "type": "mul",
+                                    "inputs": [
+                                      2954.6394,
+                                      {
+                                        "type": "sub",
+                                        "left": 1,
+                                        "right": {
+                                          "type": "div",
+                                          "left": 2,
+                                          "right": {
+                                            "type": "add",
+                                            "inputs": [
+                                              1,
+                                              {
+                                                "type": "pow",
+                                                "base": {
+                                                  "type": "storage",
+                                                  "storage": "minecraft:ln.math",
+                                                  "path": "input"
+                                                },
+                                                "exponent": 0.0009765625
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "right": 1
+                        },
+                        "right": {
+                          "type": "add",
+                          "inputs": [
+                            {
+                              "type": "conditional",
+                              "condition": {
+                                "type": "float_value_check",
+                                "value": {
+                                  "type": "storage",
+                                  "storage": "minecraft:ln.math",
+                                  "path": "input"
+                                },
+                                "test": {
+                                  "min": 1
+                                }
+                              },
+                              "on_true": {
+                                "type": "mul",
+                                "inputs": [
+                                  {
+                                    "type": "storage",
+                                    "storage": "minecraft:ln.math",
+                                    "path": "input"
+                                  },
+                                  {
+                                    "type": "pow",
+                                    "base": 2,
+                                    "exponent": {
+                                      "type": "mul",
+                                      "inputs": [
+                                        -1,
+                                        {
+                                          "type": "round",
+                                          "input": {
+                                            "type": "mul",
+                                            "inputs": [
+                                              2954.6394,
+                                              {
+                                                "type": "sub",
+                                                "left": 1,
+                                                "right": {
+                                                  "type": "div",
+                                                  "left": 2,
+                                                  "right": {
+                                                    "type": "add",
+                                                    "inputs": [
+                                                      1,
+                                                      {
+                                                        "type": "pow",
+                                                        "base": {
+                                                          "type": "storage",
+                                                          "storage": "minecraft:ln.math",
+                                                          "path": "input"
+                                                        },
+                                                        "exponent": 0.0009765625
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "on_false": {
+                                "type": "div",
+                                "left": {
+                                  "type": "storage",
+                                  "storage": "minecraft:ln.math",
+                                  "path": "input"
+                                },
+                                "right": {
+                                  "type": "pow",
+                                  "base": 2,
+                                  "exponent": {
+                                    "type": "round",
+                                    "input": {
+                                      "type": "mul",
+                                      "inputs": [
+                                        2954.6394,
+                                        {
+                                          "type": "sub",
+                                          "left": 1,
+                                          "right": {
+                                            "type": "div",
+                                            "left": 2,
+                                            "right": {
+                                              "type": "add",
+                                              "inputs": [
+                                                1,
+                                                {
+                                                  "type": "pow",
+                                                  "base": {
+                                                    "type": "storage",
+                                                    "storage": "minecraft:ln.math",
+                                                    "path": "input"
+                                                  },
+                                                  "exponent": 0.0009765625
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            1
+                          ]
+                        }
+                      },
+                      "exponent": 2
+                    },
+                    {
+                      "type": "add",
+                      "inputs": [
+                        0.333335847,
+                        {
+                          "type": "mul",
+                          "inputs": [
+                            {
+                              "type": "pow",
+                              "base": {
+                                "type": "div",
+                                "left": {
+                                  "type": "sub",
+                                  "left": {
+                                    "type": "conditional",
+                                    "condition": {
+                                      "type": "float_value_check",
+                                      "value": {
+                                        "type": "storage",
+                                        "storage": "minecraft:ln.math",
+                                        "path": "input"
+                                      },
+                                      "test": {
+                                        "min": 1
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "mul",
+                                      "inputs": [
+                                        {
+                                          "type": "storage",
+                                          "storage": "minecraft:ln.math",
+                                          "path": "input"
+                                        },
+                                        {
+                                          "type": "pow",
+                                          "base": 2,
+                                          "exponent": {
+                                            "type": "mul",
+                                            "inputs": [
+                                              -1,
+                                              {
+                                                "type": "round",
+                                                "input": {
+                                                  "type": "mul",
+                                                  "inputs": [
+                                                    2954.6394,
+                                                    {
+                                                      "type": "sub",
+                                                      "left": 1,
+                                                      "right": {
+                                                        "type": "div",
+                                                        "left": 2,
+                                                        "right": {
+                                                          "type": "add",
+                                                          "inputs": [
+                                                            1,
+                                                            {
+                                                              "type": "pow",
+                                                              "base": {
+                                                                "type": "storage",
+                                                                "storage": "minecraft:ln.math",
+                                                                "path": "input"
+                                                              },
+                                                              "exponent": 0.0009765625
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "on_false": {
+                                      "type": "div",
+                                      "left": {
+                                        "type": "storage",
+                                        "storage": "minecraft:ln.math",
+                                        "path": "input"
+                                      },
+                                      "right": {
+                                        "type": "pow",
+                                        "base": 2,
+                                        "exponent": {
+                                          "type": "round",
+                                          "input": {
+                                            "type": "mul",
+                                            "inputs": [
+                                              2954.6394,
+                                              {
+                                                "type": "sub",
+                                                "left": 1,
+                                                "right": {
+                                                  "type": "div",
+                                                  "left": 2,
+                                                  "right": {
+                                                    "type": "add",
+                                                    "inputs": [
+                                                      1,
+                                                      {
+                                                        "type": "pow",
+                                                        "base": {
+                                                          "type": "storage",
+                                                          "storage": "minecraft:ln.math",
+                                                          "path": "input"
+                                                        },
+                                                        "exponent": 0.0009765625
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "right": 1
+                                },
+                                "right": {
+                                  "type": "add",
+                                  "inputs": [
+                                    {
+                                      "type": "conditional",
+                                      "condition": {
+                                        "type": "float_value_check",
+                                        "value": {
+                                          "type": "storage",
+                                          "storage": "minecraft:ln.math",
+                                          "path": "input"
+                                        },
+                                        "test": {
+                                          "min": 1
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "mul",
+                                        "inputs": [
+                                          {
+                                            "type": "storage",
+                                            "storage": "minecraft:ln.math",
+                                            "path": "input"
+                                          },
+                                          {
+                                            "type": "pow",
+                                            "base": 2,
+                                            "exponent": {
+                                              "type": "mul",
+                                              "inputs": [
+                                                -1,
+                                                {
+                                                  "type": "round",
+                                                  "input": {
+                                                    "type": "mul",
+                                                    "inputs": [
+                                                      2954.6394,
+                                                      {
+                                                        "type": "sub",
+                                                        "left": 1,
+                                                        "right": {
+                                                          "type": "div",
+                                                          "left": 2,
+                                                          "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                              1,
+                                                              {
+                                                                "type": "pow",
+                                                                "base": {
+                                                                  "type": "storage",
+                                                                  "storage": "minecraft:ln.math",
+                                                                  "path": "input"
+                                                                },
+                                                                "exponent": 0.0009765625
+                                                              }
+                                                            ]
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      "on_false": {
+                                        "type": "div",
+                                        "left": {
+                                          "type": "storage",
+                                          "storage": "minecraft:ln.math",
+                                          "path": "input"
+                                        },
+                                        "right": {
+                                          "type": "pow",
+                                          "base": 2,
+                                          "exponent": {
+                                            "type": "round",
+                                            "input": {
+                                              "type": "mul",
+                                              "inputs": [
+                                                2954.6394,
+                                                {
+                                                  "type": "sub",
+                                                  "left": 1,
+                                                  "right": {
+                                                    "type": "div",
+                                                    "left": 2,
+                                                    "right": {
+                                                      "type": "add",
+                                                      "inputs": [
+                                                        1,
+                                                        {
+                                                          "type": "pow",
+                                                          "base": {
+                                                            "type": "storage",
+                                                            "storage": "minecraft:ln.math",
+                                                            "path": "input"
+                                                          },
+                                                          "exponent": 0.0009765625
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    1
+                                  ]
+                                }
+                              },
+                              "exponent": 2
+                            },
+                            {
+                              "type": "add",
+                              "inputs": [
+                                0.199687809,
+                                {
+                                  "type": "mul",
+                                  "inputs": [
+                                    0.153779507,
+                                    {
+                                      "type": "pow",
+                                      "base": {
+                                        "type": "div",
+                                        "left": {
+                                          "type": "sub",
+                                          "left": {
+                                            "type": "conditional",
+                                            "condition": {
+                                              "type": "float_value_check",
+                                              "value": {
+                                                "type": "storage",
+                                                "storage": "minecraft:ln.math",
+                                                "path": "input"
+                                              },
+                                              "test": {
+                                                "min": 1
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "mul",
+                                              "inputs": [
+                                                {
+                                                  "type": "storage",
+                                                  "storage": "minecraft:ln.math",
+                                                  "path": "input"
+                                                },
+                                                {
+                                                  "type": "pow",
+                                                  "base": 2,
+                                                  "exponent": {
+                                                    "type": "mul",
+                                                    "inputs": [
+                                                      -1,
+                                                      {
+                                                        "type": "round",
+                                                        "input": {
+                                                          "type": "mul",
+                                                          "inputs": [
+                                                            2954.6394,
+                                                            {
+                                                              "type": "sub",
+                                                              "left": 1,
+                                                              "right": {
+                                                                "type": "div",
+                                                                "left": 2,
+                                                                "right": {
+                                                                  "type": "add",
+                                                                  "inputs": [
+                                                                    1,
+                                                                    {
+                                                                      "type": "pow",
+                                                                      "base": {
+                                                                        "type": "storage",
+                                                                        "storage": "minecraft:ln.math",
+                                                                        "path": "input"
+                                                                      },
+                                                                      "exponent": 0.0009765625
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            "on_false": {
+                                              "type": "div",
+                                              "left": {
+                                                "type": "storage",
+                                                "storage": "minecraft:ln.math",
+                                                "path": "input"
+                                              },
+                                              "right": {
+                                                "type": "pow",
+                                                "base": 2,
+                                                "exponent": {
+                                                  "type": "round",
+                                                  "input": {
+                                                    "type": "mul",
+                                                    "inputs": [
+                                                      2954.6394,
+                                                      {
+                                                        "type": "sub",
+                                                        "left": 1,
+                                                        "right": {
+                                                          "type": "div",
+                                                          "left": 2,
+                                                          "right": {
+                                                            "type": "add",
+                                                            "inputs": [
+                                                              1,
+                                                              {
+                                                                "type": "pow",
+                                                                "base": {
+                                                                  "type": "storage",
+                                                                  "storage": "minecraft:ln.math",
+                                                                  "path": "input"
+                                                                },
+                                                                "exponent": 0.0009765625
+                                                              }
+                                                            ]
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "right": 1
+                                        },
+                                        "right": {
+                                          "type": "add",
+                                          "inputs": [
+                                            {
+                                              "type": "conditional",
+                                              "condition": {
+                                                "type": "float_value_check",
+                                                "value": {
+                                                  "type": "storage",
+                                                  "storage": "minecraft:ln.math",
+                                                  "path": "input"
+                                                },
+                                                "test": {
+                                                  "min": 1
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "mul",
+                                                "inputs": [
+                                                  {
+                                                    "type": "storage",
+                                                    "storage": "minecraft:ln.math",
+                                                    "path": "input"
+                                                  },
+                                                  {
+                                                    "type": "pow",
+                                                    "base": 2,
+                                                    "exponent": {
+                                                      "type": "mul",
+                                                      "inputs": [
+                                                        -1,
+                                                        {
+                                                          "type": "round",
+                                                          "input": {
+                                                            "type": "mul",
+                                                            "inputs": [
+                                                              2954.6394,
+                                                              {
+                                                                "type": "sub",
+                                                                "left": 1,
+                                                                "right": {
+                                                                  "type": "div",
+                                                                  "left": 2,
+                                                                  "right": {
+                                                                    "type": "add",
+                                                                    "inputs": [
+                                                                      1,
+                                                                      {
+                                                                        "type": "pow",
+                                                                        "base": {
+                                                                          "type": "storage",
+                                                                          "storage": "minecraft:ln.math",
+                                                                          "path": "input"
+                                                                        },
+                                                                        "exponent": 0.0009765625
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              "on_false": {
+                                                "type": "div",
+                                                "left": {
+                                                  "type": "storage",
+                                                  "storage": "minecraft:ln.math",
+                                                  "path": "input"
+                                                },
+                                                "right": {
+                                                  "type": "pow",
+                                                  "base": 2,
+                                                  "exponent": {
+                                                    "type": "round",
+                                                    "input": {
+                                                      "type": "mul",
+                                                      "inputs": [
+                                                        2954.6394,
+                                                        {
+                                                          "type": "sub",
+                                                          "left": 1,
+                                                          "right": {
+                                                            "type": "div",
+                                                            "left": 2,
+                                                            "right": {
+                                                              "type": "add",
+                                                              "inputs": [
+                                                                1,
+                                                                {
+                                                                  "type": "pow",
+                                                                  "base": {
+                                                                    "type": "storage",
+                                                                    "storage": "minecraft:ln.math",
+                                                                    "path": "input"
+                                                                  },
+                                                                  "exponent": 0.0009765625
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            1
+                                          ]
+                                        }
+                                      },
+                                      "exponent": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "mul",
+          "inputs": [
+            {
+              "type": "round",
+              "input": {
+                "type": "mul",
+                "inputs": [
+                  2954.6394,
+                  {
+                    "type": "sub",
+                    "left": 1,
+                    "right": {
+                      "type": "div",
+                      "left": 2,
+                      "right": {
+                        "type": "add",
+                        "inputs": [
+                          1,
+                          {
+                            "type": "pow",
+                            "base": {
+                              "type": "storage",
+                              "storage": "minecraft:ln.math",
+                              "path": "input"
+                            },
+                            "exponent": 0.0009765625
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            1.4286068e-06
+          ]
+        }
+      ]
+    }
+  ]
+}
